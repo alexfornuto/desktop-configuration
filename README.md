@@ -24,6 +24,7 @@
        gsettings set org.gnome.desktop.interface clock-show-date true
        gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true  # Use Apple-style natural scrolling.
        gsettings set org.gnome.shell enabled-extensions "[]"  # Disable the Fedora desktop logo.
+       gsettings set org.gnome.desktop.interface clock-show-date true # Show date in the status bar.
 
        # Terminal:
        gsettings set "org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/" reset-and-clear 'F12'  # Set F12 to Reset and Clear
